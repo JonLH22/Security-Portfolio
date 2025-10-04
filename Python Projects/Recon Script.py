@@ -23,7 +23,7 @@ from bs4 import BeautifulSoup
 
 # --------- Config ----------
 USER_AGENT = "ReconStarter/1.0 (+https://example.com/)"
-CONCURRENCY = 20
+CONCURRENCY = 25
 TIMEOUT = 15
 CDX_API = "http://web.archive.org/cdx/search/cdx?url={domain}/*&output=json&fl=original&collapse=urlkey"
 # ---------------------------
@@ -202,3 +202,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+#test push
+
